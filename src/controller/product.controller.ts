@@ -8,6 +8,7 @@ export const productController = (
 	const url = req.url;
 	const method = req.method;
 
+	//Get all products
 	if (url === '/products' && method === 'GET') {
 
 // const products = [
